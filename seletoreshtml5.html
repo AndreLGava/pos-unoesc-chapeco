@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt">
+	<head>
+		<meta charset = "utf-8">
+	</head>
+	<body>
+	<nav>
+		<ul id="menu-list">
+			<li class="item">Home</li>
+			<li class="item">About us</li>
+			<li class="item">Contact</li>
+			<li class="item">Join us</li>
+		</ul>
+	</nav>
+
+	<button type="" onclick="javascript:adicionaItem('Andre')">Adicionar</button>
+<script>
+	var itens = document.getElementsByClassName;
+	console.log(itens);
+
+	function adicionaItem(valor){
+		document.getElementById('menu-list').innerHTML+='<li>'+valor+'</li>';
+	}
+
+	
+
+</script>
+		
+	</body>
+</html>
