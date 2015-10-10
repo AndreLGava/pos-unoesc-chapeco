@@ -2,3 +2,7 @@
 			display: inline-block;
 			width: 20%;
 		}
+		.trash{
+			background-image: url("trash.png");
+			background-repeat: repeat-y;
+		}
