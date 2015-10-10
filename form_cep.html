@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset = "utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	<form>
+		<input name="cep" id="cep" required pattern="\9{5}-?\d{3}" onchange="javascript:console.log('Change')" oninput="javascript:console.log('Input')"; />
+		<input type="submit" value="Enviar" formnovalidate>
+	</form>
+		
+	</body>
+</html>

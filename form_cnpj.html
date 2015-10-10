@@ -3,16 +3,16 @@
 	<head>
 		<meta charset = "utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="cpf.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="cnpj.js" type="text/javascript" charset="utf-8" async defer></script>
 		<script >
-			function vCPF(i){
-				i.setCustomValidity(validaCPF(i.value)?'':'CPF Inválido!');
+			function vCNPJ(i){
+				i.setCustomValidity(validarCNPJ(i.value)?'':'CNPJ Inválido!');
 			}
 		</script>
 	</head>
 	<body>
 	<form>
-		<input name="cpf" id="cpf" required oninput="vCPF(this)"; />
+		<input name="cnpj" id="cnpj" required oninput="vCNPJ(this)"; />
 		<input type="submit" value="Enviar">
 	</form>
 		
