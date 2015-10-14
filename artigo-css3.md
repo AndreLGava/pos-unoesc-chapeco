@@ -76,3 +76,36 @@ div {
 ### Referencia:
 [http://beta.theexpressiveweb.com/#!/css3-transforms ] (http://beta.theexpressiveweb.com/#!/css3-transforms )<br>
 [http://www.w3schools.com/css/css3_animations.asp ] (http://www.w3schools.com/css/css3_animations.asp )
+
+##### Funcionalidade: Gradient
+##### O que é?
+A propriedade gradient nos permite mostrar a trasição entre duas ou mais cores especificas sem o auxilio de qualquer arquivo de imagem, esta é uma funcionalidade muito útil pois reduz o tempo para carregamento da página, qualidade de imagem, o tamanho da mesma e a flexibilidade em diferentes telas. Podemos aplicar diferentes gradientes sejam lineares ou radiais em diferentes ângulos e posições.
+##### Onde usar:
+Em qualquer elemento DOM HTML que possua a opção background.
+##### Como usar:
+```css
+ #grad {
+  background: -webkit-radial-gradient([cor], [cor] [, …]);
+  background: -o-radial-gradient([cor], [cor] [, …]);
+  background: -moz-radial-gradient([cor], [cor] [, …]);
+  background: radial-gradient([cor], [cor] [, …]);
+}
+
+
+```
+##### Exemplo de uso
+
+A sintaxe geral para aplicar o gradiente pode ser utilizada da seguinte forma
+
+```css
+#grad {
+  background: -webkit-radial-gradient(red, green, blue);
+  background: -o-radial-gradient(red, green, blue);
+  background: -moz-radial-gradient(red, green, blue);
+  background: radial-gradient(red, green, blue); 
+}
+
+```
+### Referencia:
+[http://beta.theexpressiveweb.com/#!/css3-transforms ] (http://beta.theexpressiveweb.com/#!/css3-transforms )<br>
+[http://www.w3schools.com/css/css3_gradients.asp  ] (http://www.w3schools.com/css/css3_gradients.asp )
