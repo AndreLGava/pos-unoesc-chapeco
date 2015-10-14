@@ -346,3 +346,40 @@ A sintaxe geral para aplicar os métodos da propriedade Filter pode ser utilizad
 ```
 ### Referencia:
 [http://www.w3schools.com/cssref/css3_pr_filter.asp ] (http://www.w3schools.com/cssref/css3_pr_filter.asp )<br>
+
+
+
+##### Funcionalidade: Media Queries
+##### O que é?
+
+Utilizamos os media queries para definir para qual tipo de media determinado codigo CSS é direcionado, ou seja o utilizamos para definir diferentes tipos de regras para diferentes tipos de dispositivos. Os media queries foram desenvolvidos a partir do atributo media type. Então é um atributo poderoso para que possamos desenvolver interfaces adaptaveis e flexiveis a diferentes tipos de dispositivos e telas. Um atributo poderoso para evitar retrabalho de desenvolvedores e velocidade da aplicação.
+
+
+##### Onde usar:
+
+Em qualquer elemento texto HTML, mas geralmente é mais utilizado para criar classes mais genericas, como div de grid e outros.
+
+##### Como usar:
+```css
+@media screen and (min-width: [tamanho minimo]) and (max-width: [tamanho maximo]) { 
+[elemento, classe ou id] { [atributo]: [valor]; } 
+} 
+
+
+
+```
+##### Exemplo de uso
+
+A sintaxe geral para aplicar os métodos da propriedade Filter pode ser utilizada da seguinte forma
+
+```css
+@media screen and (min-width: 600px) and (max-width: 900px) { 
+.tres { background: #9CF; } 
+span.bt600-900 { display: inline-block; }
+ } 
+
+
+```
+### Referencia:
+[http://www.devmedia.com.br/utilizando-css-media-queries/27085] (http://www.devmedia.com.br/utilizando-css-media-queries/27085 )<br>
+[http://beta.theexpressiveweb.com/#!/css3-media-queries] (http://beta.theexpressiveweb.com/#!/css3-media-queries)<br>
