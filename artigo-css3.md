@@ -171,8 +171,8 @@ div {
     width: [tamanho];
     height: [tamanho];
     background: [cor]];
-    -webkit-transition: [elemento] [tempo em segundos]; //safari
-    transition: [elemento] [tempo em segundos];//outros
+    -webkit-transition: [elemento] [tempo em segundos]; /*safari*/
+    transition: [elemento] [tempo em segundos];/*outros*/
 }
 
 
