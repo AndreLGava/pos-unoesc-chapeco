@@ -195,3 +195,45 @@ div {
 ### Referencia:
 [http://beta.theexpressiveweb.com/#!/css3-transforms ] (http://beta.theexpressiveweb.com/#!/css3-transforms )<br>
 [http://www.w3schools.com/css/css3_transitions.asp] (http://www.w3schools.com/css/css3_transitions.asp)
+
+
+##### Funcionalidade: @font-face
+
+##### O que é?
+
+A propriedade @font-face permite que possamos embedar fontes exclusivas na pagina mesmo que ela não esteja instalada no computados do usuário. Ela torna as paginas mais bonitas e exclusivas, porem se a fonte não existe na maquina ela precisa ser baixada junto com o conteudo HTML ou seja a pagina pode por alguns segundos ter uma fonte e assim que o arquivo for carregado a pagina troca a fonte, algo que pode causar um pouco de confusão para o usuário. Para isso inicialmente precisamos definir o nome da fonte e em seguida definir o caminho.
+
+
+
+##### Onde usar:
+
+Em qualquer elemento texto HTML.
+
+##### Como usar:
+```css
+@font-face {
+    font-family: [nome]];
+    src: url([caminho]+[arquivo].[extensão]);
+}
+
+
+```
+##### Exemplo de uso
+
+A sintaxe geral para aplicar a fonte pode ser utilizada da seguinte forma
+
+```css
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+div {
+    font-family: myFirstFont;
+}
+
+
+```
+### Referencia:
+[http://beta.theexpressiveweb.com/#!/css3-transforms ] (http://beta.theexpressiveweb.com/#!/css3-transforms )<br>
+[http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_font-face_rule_bold] (http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_font-face_rule_bold)
