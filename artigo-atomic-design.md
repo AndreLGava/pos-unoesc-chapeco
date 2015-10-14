@@ -3,7 +3,7 @@
 #### Pós-graduação em Desenvolvimento Web, Cloud e dispositivos móveis - WebMob
 #### Disciplina: HTML5+CSS3
 #### Professor: Jean Carlo Nascimento
-#### Acadêmico(a): [mailto:andrelzgava@gmail.com](André Luiz Gava)
+#### Acadêmico(a): André Luiz Gava {andrelzgava@gmail.com}
 ####Atomic Design
 
 
