@@ -109,3 +109,48 @@ A sintaxe geral para aplicar o gradiente pode ser utilizada da seguinte forma
 ### Referencia:
 [http://beta.theexpressiveweb.com/#!/css3-transforms ] (http://beta.theexpressiveweb.com/#!/css3-transforms )<br>
 [http://www.w3schools.com/css/css3_gradients.asp  ] (http://www.w3schools.com/css/css3_gradients.asp )
+
+##### Funcionalidade: Shadows
+
+##### O que é?
+
+A propriedade shadow possui dois métodos text-shadow e box-shadow, ambos são utilizados para aplicar o efeito de sombra nas formas e textos dos elementos HTML. Assim como a propriedade gradiente ela facilita o carregamento das páginas por não mais necessitar de imagens para gerar tal efeito. O efeito shadow também permite definir uma cor especifica o que o tornaria mais parecido com um efeito glow.
+
+##### Onde usar:
+
+Em qualquer elemento DOM HTML.
+
+##### Como usar:
+```css
+ h1 {
+    text-shadow: [posição x] [posição y] [desfoque] [cor] ...(, [posição x] [posição y] [desfoque] [cor]);
+}
+
+div {
+    box-shadow: [posição x] [posição y] [desfoque] [cor] ...(, [posição x] [posição y] [desfoque] [cor]);
+}
+
+
+```
+##### Exemplo de uso
+
+A sintaxe geral para aplicar a sombra pode ser utilizada da seguinte forma
+
+```css
+h1 {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+div {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: yellow;
+    box-shadow: 10px 10px 100px #FF0000;
+}
+
+
+```
+### Referencia:
+[http://beta.theexpressiveweb.com/#!/css3-transforms ] (http://beta.theexpressiveweb.com/#!/css3-transforms )<br>
+[http://www.w3schools.com/css/css3_shadows.asp  ] (http://www.w3schools.com/css/css3_shadows.asp )
