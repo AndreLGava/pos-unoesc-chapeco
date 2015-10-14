@@ -154,3 +154,44 @@ div {
 ### Referencia:
 [http://beta.theexpressiveweb.com/#!/css3-transforms ] (http://beta.theexpressiveweb.com/#!/css3-transforms )<br>
 [http://www.w3schools.com/css/css3_shadows.asp  ] (http://www.w3schools.com/css/css3_shadows.asp )
+
+##### Funcionalidade: Transition
+
+##### O que é?
+
+A propriedade transition oferece um metodo simples de animação css de um elemento HTML durante determinado tempo, permitindo criar simples animações  fade, rollover ou outras transições e efeitos sem auxilio de Javascript. Muito similar a Animation CSS, porem menos complicado de implementar, geralmente definindo somente duas coisas (o que animar e em quanto tempo a animação deve acontecer).
+
+##### Onde usar:
+
+Em qualquer elemento DOM HTML atraves de determinado elemento CSS.
+
+##### Como usar:
+```css
+div {
+    width: [tamanho];
+    height: [tamanho];
+    background: [cor]];
+    -webkit-transition: [elemento] [tempo em segundos]; //safari
+    transition: [elemento] [tempo em segundos];//outros
+}
+
+
+```
+##### Exemplo de uso
+
+A sintaxe geral para aplicar a transição pode ser utilizada da seguinte forma
+
+```css
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+
+
+```
+### Referencia:
+[http://beta.theexpressiveweb.com/#!/css3-transforms ] (http://beta.theexpressiveweb.com/#!/css3-transforms )<br>
+[http://www.w3schools.com/css/css3_transitions.asp] (http://www.w3schools.com/css/css3_transitions.asp)
