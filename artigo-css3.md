@@ -237,3 +237,112 @@ div {
 ### Referencia:
 [http://beta.theexpressiveweb.com/#!/css3-transforms ] (http://beta.theexpressiveweb.com/#!/css3-transforms )<br>
 [http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_font-face_rule_bold] (http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_font-face_rule_bold)
+
+
+##### Funcionalidade: Filter
+##### O que é?
+
+A propriedade Filter permite aplicarmos efeitos de cor, gama, exposição, blur, transparencia dentre outros a elementos HTML, excelente para tratamento de imagem, ou efeito especifico sem a necessidade de utilizar Javascript ou tratamento com imagens secundarias(css sprite). Os efeitos podem ser obtidos usando os diferentes métodos e repassando diferentes valores.
+
+
+
+##### Onde usar:
+
+Em qualquer elemento texto HTML, mas geralmente é mais utilizado no atributo img (imagem).
+
+##### Como usar:
+```css
+/*desfoque*/
+    -webkit-filter: blur([valor]);
+    filter: blur([valor]);
+/*brilho*/
+    -webkit-filter: brightness([valor]); 
+    filter: brightness([valor]);
+/*contraste*/
+
+    -webkit-filter: contrast([porcentagem]);
+    filter: contrast([porcentagem]);
+/*Escala de cinza*/
+    -webkit-filter: grayscale([porcentagem]);
+    filter: grayscale([porcentagem];
+/*matiz*/
+    -webkit-filter: hue-rotate([valor em graus]);
+    filter: hue-rotate([valor em graus]);
+/*Inverção*/
+    -webkit-filter: invert([porcentagem]);
+    filter: invert([porcentagem]);
+/*Transparencia*/
+    -webkit-filter: opacity([porcentagem]);
+    filter: opacity([porcentagem]);
+/*Saturação*/
+    -webkit-filter: saturate([valor]);
+    filter: saturate([valor]);
+/*sepia*/
+    -webkit-filter: sepia([porcentagem]);
+    filter: sepia([porcentagem]);
+/*Sombra*/
+    -webkit-filter: drop-shadow(8px 8px 10px green);
+    filter: drop-shadow(8px 8px 10px green);
+
+
+
+```
+##### Exemplo de uso
+
+A sintaxe geral para aplicar os métodos da propriedade Filter pode ser utilizada da seguinte forma
+
+```css
+.blur {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.brightness {
+    -webkit-filter: brightness(0.30);
+    filter: brightness(0.30);
+}
+
+.contrast {
+    -webkit-filter: contrast(180%);
+    filter: contrast(180%);
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.huerotate {
+    -webkit-filter: hue-rotate(180deg);
+    filter: hue-rotate(180deg);
+}
+
+.invert {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.opacity {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+}
+
+.saturate {
+    -webkit-filter: saturate(7);
+    filter: saturate(7);
+}
+
+.sepia {
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+}
+
+.shadow {
+    -webkit-filter: drop-shadow(8px 8px 10px green);
+    filter: drop-shadow(8px 8px 10px green);
+}
+
+
+```
+### Referencia:
+[http://www.w3schools.com/cssref/css3_pr_filter.asp ] (http://www.w3schools.com/cssref/css3_pr_filter.asp )<br>
