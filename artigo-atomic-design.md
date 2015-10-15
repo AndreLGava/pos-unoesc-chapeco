@@ -32,7 +32,7 @@ Podemos utilizar o Atomic Design desde a criação de componentes até a finaliz
 
 ####Átomos
 ```css
-######HTML :
+HTML :
     <input id="textinput" name="textinput" type="text" placeholder="placeholder">
     
     <select id="selectbasic" name="selectbasic">
@@ -40,10 +40,10 @@ Podemos utilizar o Atomic Design desde a criação de componentes até a finaliz
           <option value="2">Option two</option>
     </select>
 
-######arquivos:
+arquivos:
       cookie.otf
 
-######CSS:
+CSS:
     float: right;
 
 
@@ -52,7 +52,7 @@ Podemos utilizar o Atomic Design desde a criação de componentes até a finaliz
 ```
 ####Moléculas
 ```css
-######HTML:
+HTML:
       <form>
         <div >
           <input type="text"  placeholder="Buscar">
@@ -60,7 +60,7 @@ Podemos utilizar o Atomic Design desde a criação de componentes até a finaliz
         <button type="submit">Enviar</button>
       </form>
 
-######css:
+css:
       img  {
           float: right;
       }
@@ -69,25 +69,25 @@ Podemos utilizar o Atomic Design desde a criação de componentes até a finaliz
 ####Organismos
 ```css
 
-######jumbotron bootstrap:
+jumbotron bootstrap:
   <div class="jumbotron">
     <h1>Fala Suissa, acho que você vai odiar esse exemplo aqui :/</h1>
     <p>...</p>
     <p><a class="btn btn-primary btn-lg" href="#" role="button">Aprenda +</a></p>
   </div>
   
-######alert bootstrap:
+alert bootstrap:
   <div class="alert alert-success" role="alert">
     Texto
   </div>
 
 
-######datepicker uikit:
+datepicker uikit:
   <form class="uk-form">
       <input type="text" data-uk-datepicker="{format:'DD.MM.YYYY'}">
   </form>
   
-######panel foundation:
+panel foundation:
 
   <div class="panel">
     <h5>Panel normal</h5>
@@ -102,13 +102,12 @@ Podemos utilizar o Atomic Design desde a criação de componentes até a finaliz
 Metronic{http://www.keenthemes.com/preview/metronic/theme/templates/admin3/}
 Bootstrap demo{http://getbootstrap.com/examples/theme/}
 
-
-
 ```
 
 
 ####Páginas
 ```css
+
 por Fundation{http://foundation.zurb.com/templates/banner-theme.html}
 por Fundation{http://foundation.zurb.com/templates/portfolio-theme.html}
 
