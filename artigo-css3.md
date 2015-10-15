@@ -383,3 +383,38 @@ span.bt600-900 { display: inline-block; }
 ### Referencia:
 [http://www.devmedia.com.br/utilizando-css-media-queries/27085] (http://www.devmedia.com.br/utilizando-css-media-queries/27085 )<br>
 [http://beta.theexpressiveweb.com/#!/css3-media-queries] (http://beta.theexpressiveweb.com/#!/css3-media-queries)<br>
+
+
+##### Funcionalidade: perspective 
+##### O que é?
+
+A propriedade perspective nos permite adicionar perspectiva ao elemento HTML, ela se parece mais com uma inclinação e deformação do elemento em questão, mas pode ser muito util para paginas que queiram ter uma estilização de efeito especial ou até mesmo um pequeno game.
+
+
+##### Onde usar:
+
+Em qualquer elemento texto HTML.
+
+##### Como usar:
+```css
+
+[elemento, classe ou id] {
+    -webkit-perspective: [valor]; /* Chrome, Safari, Opera */
+    perspective:  [valor];;
+}
+
+
+```
+##### Exemplo de uso
+
+A sintaxe geral para aplicar os métodos da propriedade Filter pode ser utilizada da seguinte forma
+
+```css
+div {
+    -webkit-perspective: 500px; /* Chrome, Safari, Opera */
+    perspective: 500px;
+}
+
+```
+### Referencia:
+[http://www.w3schools.com/cssref/css3_pr_perspective.asp] (http://www.w3schools.com/cssref/css3_pr_perspective.asp )<br>
