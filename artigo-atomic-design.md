@@ -97,21 +97,20 @@ panel foundation:
 ```
 
 ####Templates
-```css
+
 ![image](https://cloud.githubusercontent.com/assets/15130723/10555515/baa9c5ac-7446-11e5-9eac-aadf05215071.png)
 Metronic{http://www.keenthemes.com/preview/metronic/theme/templates/admin3/}
 Bootstrap demo{http://getbootstrap.com/examples/theme/}
 
-```
 
 
 ####Páginas
-```css
+
+
 ![image](https://cloud.githubusercontent.com/assets/15130723/10555516/baafe8f6-7446-11e5-9731-10cb8bd39f16.png)
 por Fundation{http://foundation.zurb.com/templates/banner-theme.html}
 por Fundation{http://foundation.zurb.com/templates/portfolio-theme.html}
 
-```
 
 
 ####6) Referências
