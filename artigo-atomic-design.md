@@ -97,12 +97,6 @@ jumbotron bootstrap:
     <p><a class="btn btn-primary btn-lg" href="#" role="button">Aprenda +</a></p>
   </div>
   
-alert bootstrap:
-  <div class="alert alert-success" role="alert">
-    Texto
-  </div>
-
-
 datepicker uikit:
   <form class="uk-form">
       <input type="text" data-uk-datepicker="{format:'DD.MM.YYYY'}">
