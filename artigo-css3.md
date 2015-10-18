@@ -3,7 +3,7 @@
 #### Pós-graduação em Desenvolvimento Web, Cloud e dispositivos móveis - WebMob
 #### Disciplina: HTML5+CSS3
 #### Professor: Jean Carlo Nascimento
-#### Acadêmico(a): André Luiz Gava
+#### Acadêmico(a): André Luiz Gava {andrelzgava@gmail.com}
 ### Artigo de revisão de CSS3
 ### Funcionalidade: Transform 2D — Translate
 ##### O que é?
