@@ -5,7 +5,7 @@
 #### Professor: Jean Carlo Nascimento
 #### Acadêmico(a): André Luiz Gava
 ### Artigo de revisão de CSS3
-##### Funcionalidade: Transform 2D — Translate
+### Funcionalidade: Transform 2D — Translate
 ##### O que é?
 O método translate da propriedade Transform, permite que posamos aplicar movimento a qualquer elemento DOM em um espaço 2D e 3D. O elemento se deslocará pelo espaço movendo-se nas coordenadas x e y. 
 ##### Onde usar:
@@ -30,13 +30,13 @@ seletor {
 
 
 ```
-### Referencia:
+#### Referencia:
 [http://www.maujor.com/tutorial/interativo-css3/] (http://www.maujor.com/tutorial/interativo-css3/)<br>
 [http://beta.theexpressiveweb.com/#!/css3-transforms] (http://beta.theexpressiveweb.com/#!/css3-transforms)<br>
 [http://www.w3schools.com/css/css3_2dtransforms.asp ] (http://www.w3schools.com/css/css3_2dtransforms.asp)
 
 
-##### Funcionalidade: Animation
+### Funcionalidade: Animation
 ##### O que é?
 A propriedade animation nos permite adicionar animações ao conteúdo HTML. Desta forma podemos animar o conteúdo sem javascript ou flash. Podemos aplicar um estilo e transformar em outro gradualmente.
 ##### Onde usar:
@@ -74,11 +74,11 @@ div {
 
 
 ```
-### Referencia:
+#### Referencia:
 [http://beta.theexpressiveweb.com/#!/css3-transforms ] (http://beta.theexpressiveweb.com/#!/css3-transforms )<br>
 [http://www.w3schools.com/css/css3_animations.asp ] (http://www.w3schools.com/css/css3_animations.asp )
 
-##### Funcionalidade: Gradient
+### Funcionalidade: Gradient
 ##### O que é?
 A propriedade gradient nos permite mostrar a trasição entre duas ou mais cores especificas sem o auxilio de qualquer arquivo de imagem, esta é uma funcionalidade muito útil pois reduz o tempo para carregamento da página, qualidade de imagem, o tamanho da mesma e a flexibilidade em diferentes telas. Podemos aplicar diferentes gradientes sejam lineares ou radiais em diferentes ângulos e posições.
 
@@ -109,11 +109,11 @@ A sintaxe geral para aplicar o gradiente pode ser utilizada da seguinte forma
 }
 
 ```
-### Referencia:
+#### Referencia:
 [http://beta.theexpressiveweb.com/#!/css3-transforms ] (http://beta.theexpressiveweb.com/#!/css3-transforms )<br>
 [http://www.w3schools.com/css/css3_gradients.asp  ] (http://www.w3schools.com/css/css3_gradients.asp )
 
-##### Funcionalidade: Shadows
+### Funcionalidade: Shadows
 
 ##### O que é?
 
@@ -154,11 +154,11 @@ div {
 
 
 ```
-### Referencia:
+#### Referencia:
 [http://beta.theexpressiveweb.com/#!/css3-transforms ] (http://beta.theexpressiveweb.com/#!/css3-transforms )<br>
 [http://www.w3schools.com/css/css3_shadows.asp  ] (http://www.w3schools.com/css/css3_shadows.asp )
 
-##### Funcionalidade: Transition
+### Funcionalidade: Transition
 
 ##### O que é?
 
@@ -195,12 +195,12 @@ div {
 
 
 ```
-### Referencia:
+#### Referencia:
 [http://beta.theexpressiveweb.com/#!/css3-transforms ] (http://beta.theexpressiveweb.com/#!/css3-transforms )<br>
 [http://www.w3schools.com/css/css3_transitions.asp] (http://www.w3schools.com/css/css3_transitions.asp)
 
 
-##### Funcionalidade: @font-face
+### Funcionalidade: @font-face
 
 ##### O que é?
 
@@ -235,12 +235,12 @@ div {
 
 
 ```
-### Referencia:
+#### Referencia:
 [http://beta.theexpressiveweb.com/#!/css3-transforms ] (http://beta.theexpressiveweb.com/#!/css3-transforms )<br>
 [http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_font-face_rule_bold] (http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_font-face_rule_bold)
 
 
-##### Funcionalidade: Filter
+### Funcionalidade: Filter
 ##### O que é?
 
 A propriedade Filter permite aplicarmos efeitos de cor, gama, exposição, blur, transparência dentre outros a elementos HTML, excelente para tratamento de imagem, ou efeito especifico sem a necessidade de utilizar Javascript ou tratamento com imagens secundarias(css sprite). Os efeitos podem ser obtidos usando os diferentes métodos e repassando diferentes valores.
@@ -342,12 +342,10 @@ A sintaxe geral para aplicar os métodos da propriedade Filter pode ser utilizad
 
 
 ```
-### Referencia:
+#### Referencia:
 [http://www.w3schools.com/cssref/css3_pr_filter.asp ] (http://www.w3schools.com/cssref/css3_pr_filter.asp )<br>
 
-
-
-##### Funcionalidade: Media Queries
+### Funcionalidade: Media Queries
 ##### O que é?
 
 Utilizamos os media queries para definir para qual tipo de media determinado codigo CSS é direcionado, ou seja o utilizamos para definir diferentes tipos de regras para diferentes tipos de dispositivos. Os media queries foram desenvolvidos a partir do atributo media type. Então é um atributo poderoso para que possamos desenvolver interfaces adaptáveis e flexiveis a diferentes tipos de dispositivos e telas. Um atributo poderoso para evitar retrabalho de desenvolvedores e velocidade da aplicação.
@@ -377,12 +375,12 @@ span.bt600-900 { display: inline-block; }
  } 
 
 ```
-### Referencia:
+#### Referencia:
 [http://www.devmedia.com.br/utilizando-css-media-queries/27085] (http://www.devmedia.com.br/utilizando-css-media-queries/27085 )<br>
 [http://beta.theexpressiveweb.com/#!/css3-media-queries] (http://beta.theexpressiveweb.com/#!/css3-media-queries)<br>
 
 
-##### Funcionalidade: perspective 
+### Funcionalidade: Perspective 
 ##### O que é?
 
 A propriedade perspective nos permite adicionar perspectiva ao elemento HTML, ela se parece mais com uma inclinação e deformação do elemento em questão, mas pode ser muito util para páginas que queiram ter uma estilização de efeito especial ou até mesmo um pequeno game.
@@ -413,12 +411,12 @@ div {
 }
 
 ```
-### Referencia:
+#### Referencia:
 [http://www.w3schools.com/cssref/css3_pr_perspective.asp] (http://www.w3schools.com/cssref/css3_pr_perspective.asp )<br>
 
 
 
-##### Funcionalidade: Border Radius 
+### Funcionalidade: Border Radius 
 ##### O que é?
 
 Essa é uma das propriedades CSS3 mais utilizadas, ela é usada para aredondar os cantos de elementos HTML, tornando o layout mais armônico e visualmente mais agradavel aos olhos dos usuários. Antigamente precisavamos utilizar aquivos de imagem para criar os cantos aredondados, se tinha algum outro efeito como sombra já complicava um pouco, utilizar em outros dispositivos era um terror. Esta funcionalidade torna a página mais estavel e mais leve.
@@ -459,5 +457,5 @@ Para utilizar podemos simplesmente declarar assim:
 }
 
 ```
-### Referencia:
+#### Referencia:
 [http://www.w3schools.com/cssref/css3_pr_border-radius.asp] (http://www.w3schools.com/cssref/css3_pr_border-radius.asp )<br>
