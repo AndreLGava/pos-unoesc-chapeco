@@ -31,6 +31,15 @@ Podemos utilizar o Atomic Design desde a criação de componentes até a finaliz
 ###5) Exemplos:
 
 ####Átomos
+
+Input:
+![image](https://raw.githubusercontent.com/AndreLGava/pos-unoesc-chapeco/master/arquivos/input.jpg)
+
+Botão:
+![image](https://raw.githubusercontent.com/AndreLGava/pos-unoesc-chapeco/master/arquivos/botao.jpg)
+
+outros exemplos em códigos:
+
 ```css
 HTML :
     <input id="textinput" name="textinput" type="text" placeholder="placeholder">
@@ -46,11 +55,14 @@ arquivos:
 CSS:
     float: right;
 
-
-
-
 ```
 ####Moléculas
+
+Label e Input:
+![image](https://raw.githubusercontent.com/AndreLGava/pos-unoesc-chapeco/master/arquivos/mol_input.jpg)
+
+outros exemplos em códigos:
+
 ```css
 HTML:
       <form>
@@ -67,6 +79,15 @@ css:
 ```
 
 ####Organismos
+
+Alert Boostratp:
+![image](https://raw.githubusercontent.com/AndreLGava/pos-unoesc-chapeco/master/arquivos/alert.jpg)
+
+Form Boostratp:
+![image](https://raw.githubusercontent.com/AndreLGava/pos-unoesc-chapeco/master/arquivos/form.jpg)
+
+outros exemplos em códigos:
+
 ```css
 
 jumbotron bootstrap:
