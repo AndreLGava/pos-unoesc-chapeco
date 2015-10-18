@@ -418,3 +418,49 @@ div {
 ```
 ### Referencia:
 [http://www.w3schools.com/cssref/css3_pr_perspective.asp] (http://www.w3schools.com/cssref/css3_pr_perspective.asp )<br>
+
+
+
+##### Funcionalidade: Border Radius 
+##### O que é?
+
+Essa é uma das propriedades CSS3 mais utilizadas, ela é usada para aredondar os cantos de elementos HTML, tornando o layout mais armônico e visualmente mais agradavel aos olhos dos usuários. Antigamente precisavamos utilizar aquivos de imagem para criar os cantos aredondados, se tinha algum outro efeito como sombra já complicava um pouco, utilizar em outros dispositivos era um terror. Esta funcionalidade torna a página mais estavel e mais leve.
+
+
+##### Onde usar:
+
+Em qualquer elemento HTML, geralmente é utizado em Div, Input, Textarea etc.
+
+##### Como usar:
+Podemos utilizar assim:
+```css
+
+[elemento, classe ou id] {
+    border-radius:valor;
+}
+
+```
+Ou caso gostariamos que as bordas tenham tamanhos diferentes e váriados, podemos fazer assim:
+
+```css
+
+[elemento, classe ou id] {
+    border-top-left-radius:valor;
+    border-top-right-radius:valor;
+    border-bottom-right-radius:valor;
+    border-bottom-left-radius:valor;
+}
+
+```
+##### Exemplo de uso
+
+Para utilizar podemos simplesmente declarar assim:
+
+```css
+.panel {
+    border-radius:valor;
+}
+
+```
+### Referencia:
+[http://www.w3schools.com/cssref/css3_pr_border-radius.asp] (http://www.w3schools.com/cssref/css3_pr_border-radius.asp )<br>
