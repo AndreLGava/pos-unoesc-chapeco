@@ -12,11 +12,12 @@ O método translate da propriedade Transform, permite que posamos aplicar movime
 Em qualquer elemento DOM HTML.
 ##### Como usar:
 ```css
+
 seletor { transform: translate(x, y); }
 
 ```
 ##### Exemplo de uso
-A sintaxe geral para mover objetos é indicada da seguinte forma
+A sintaxe geral para mover objetos é indicada da seguinte forma:
 
 ```css
 seletor {
@@ -37,11 +38,12 @@ seletor {
 
 ##### Funcionalidade: Animation
 ##### O que é?
-A propriedade animation permite que possamos adicionar animações ao conteúdo HTML. Desta forma podemos animar o conteúdo sem javascript ou flash. Podemos aplicar um estilo ao outro gradualmente.
+A propriedade animation nos permite adicionar animações ao conteúdo HTML. Desta forma podemos animar o conteúdo sem javascript ou flash. Podemos aplicar um estilo e transformar em outro gradualmente.
 ##### Onde usar:
 Em qualquer elemento DOM HTML.
 ##### Como usar:
 ```css
+
  @keyframes [funcao] {
     from {[propriedades inciais]: [valor];}
     to {[propriedades finais]: [valor];}
@@ -50,7 +52,6 @@ Em qualquer elemento DOM HTML.
 [element, classe ou id] {
     animation-name: [funcao]; 
 }
-
 
 ```
 ##### Exemplo de uso
@@ -80,11 +81,13 @@ div {
 ##### Funcionalidade: Gradient
 ##### O que é?
 A propriedade gradient nos permite mostrar a trasição entre duas ou mais cores especificas sem o auxilio de qualquer arquivo de imagem, esta é uma funcionalidade muito útil pois reduz o tempo para carregamento da página, qualidade de imagem, o tamanho da mesma e a flexibilidade em diferentes telas. Podemos aplicar diferentes gradientes sejam lineares ou radiais em diferentes ângulos e posições.
+
 ##### Onde usar:
 Em qualquer elemento DOM HTML que possua a opção background.
-##### Como usar:
+
+##### Como usar para diferentes navegadores:
 ```css
- #grad {
+#grad {
   background: -webkit-radial-gradient([cor], [cor] [, …]);
   background: -o-radial-gradient([cor], [cor] [, …]);
   background: -moz-radial-gradient([cor], [cor] [, …]);
@@ -163,7 +166,7 @@ A propriedade transition oferece um metodo simples de animação css de um eleme
 
 ##### Onde usar:
 
-Em qualquer elemento DOM HTML atraves de determinado elemento CSS.
+Em qualquer elemento DOM HTML através de determinado elemento CSS.
 
 ##### Como usar:
 ```css
@@ -171,8 +174,8 @@ div {
     width: [tamanho];
     height: [tamanho];
     background: [cor]];
-    -webkit-transition: [elemento] [tempo em segundos]; /*safari*/
-    transition: [elemento] [tempo em segundos];/*outros*/
+    -webkit-transition: [propriedade CSS] [tempo em segundos]; /*safari*/
+    transition: [propriedade CSS] [tempo em segundos];/*outros*/
 }
 
 
@@ -201,9 +204,7 @@ div {
 
 ##### O que é?
 
-A propriedade @font-face permite que possamos embedar fontes exclusivas na pagina mesmo que ela não esteja instalada no computados do usuário. Ela torna as paginas mais bonitas e exclusivas, porem se a fonte não existe na maquina ela precisa ser baixada junto com o conteudo HTML ou seja a pagina pode por alguns segundos ter uma fonte e assim que o arquivo for carregado a pagina troca a fonte, algo que pode causar um pouco de confusão para o usuário. Para isso inicialmente precisamos definir o nome da fonte e em seguida definir o caminho.
-
-
+A propriedade @font-face permite que possamos embedar fontes exclusivas na página mesmo que ela não esteja instalada no computados do usuário. Ela torna as páginas mais bonitas e exclusivas, porem se a fonte não existe na maquina ela precisa ser baixada junto com o conteudo HTML ou seja a página pode por alguns segundos ter uma fonte e assim que o arquivo for carregado a página troca a fonte, algo que pode causar um pouco de confusão para o usuário. Para isso inicialmente precisamos definir o nome da fonte e em seguida definir o caminho.
 
 ##### Onde usar:
 
@@ -212,7 +213,7 @@ Em qualquer elemento texto HTML.
 ##### Como usar:
 ```css
 @font-face {
-    font-family: [nome]];
+    font-family: [nome];
     src: url([caminho]+[arquivo].[extensão]);
 }
 
@@ -224,12 +225,12 @@ A sintaxe geral para aplicar a fonte pode ser utilizada da seguinte forma
 
 ```css
 @font-face {
-    font-family: myFirstFont;
+    font-family: minhaFonte;
     src: url(sansation_light.woff);
 }
 
 div {
-    font-family: myFirstFont;
+    font-family: minhaFonte;
 }
 
 
@@ -242,9 +243,7 @@ div {
 ##### Funcionalidade: Filter
 ##### O que é?
 
-A propriedade Filter permite aplicarmos efeitos de cor, gama, exposição, blur, transparencia dentre outros a elementos HTML, excelente para tratamento de imagem, ou efeito especifico sem a necessidade de utilizar Javascript ou tratamento com imagens secundarias(css sprite). Os efeitos podem ser obtidos usando os diferentes métodos e repassando diferentes valores.
-
-
+A propriedade Filter permite aplicarmos efeitos de cor, gama, exposição, blur, transparência dentre outros a elementos HTML, excelente para tratamento de imagem, ou efeito especifico sem a necessidade de utilizar Javascript ou tratamento com imagens secundarias(css sprite). Os efeitos podem ser obtidos usando os diferentes métodos e repassando diferentes valores.
 
 ##### Onde usar:
 
@@ -259,7 +258,6 @@ Em qualquer elemento texto HTML, mas geralmente é mais utilizado no atributo im
     -webkit-filter: brightness([valor]); 
     filter: brightness([valor]);
 /*contraste*/
-
     -webkit-filter: contrast([porcentagem]);
     filter: contrast([porcentagem]);
 /*Escala de cinza*/
@@ -352,20 +350,19 @@ A sintaxe geral para aplicar os métodos da propriedade Filter pode ser utilizad
 ##### Funcionalidade: Media Queries
 ##### O que é?
 
-Utilizamos os media queries para definir para qual tipo de media determinado codigo CSS é direcionado, ou seja o utilizamos para definir diferentes tipos de regras para diferentes tipos de dispositivos. Os media queries foram desenvolvidos a partir do atributo media type. Então é um atributo poderoso para que possamos desenvolver interfaces adaptaveis e flexiveis a diferentes tipos de dispositivos e telas. Um atributo poderoso para evitar retrabalho de desenvolvedores e velocidade da aplicação.
-
+Utilizamos os media queries para definir para qual tipo de media determinado codigo CSS é direcionado, ou seja o utilizamos para definir diferentes tipos de regras para diferentes tipos de dispositivos. Os media queries foram desenvolvidos a partir do atributo media type. Então é um atributo poderoso para que possamos desenvolver interfaces adaptáveis e flexiveis a diferentes tipos de dispositivos e telas. Um atributo poderoso para evitar retrabalho de desenvolvedores e velocidade da aplicação.
 
 ##### Onde usar:
 
-Em qualquer elemento texto HTML, mas geralmente é mais utilizado para criar classes mais genericas, como div de grid e outros.
+Geralmente é mais utilizado para criar classes mais genericas, como grids e outros.
 
 ##### Como usar:
 ```css
+
 @media screen and (min-width: [tamanho minimo]) and (max-width: [tamanho maximo]) { 
-[elemento, classe ou id] { [atributo]: [valor]; } 
+[elemento, classe ou id] { 
+  [atributo]: [valor]; 
 } 
-
-
 
 ```
 ##### Exemplo de uso
@@ -373,11 +370,11 @@ Em qualquer elemento texto HTML, mas geralmente é mais utilizado para criar cla
 A sintaxe geral para aplicar os métodos da propriedade Filter pode ser utilizada da seguinte forma
 
 ```css
+
 @media screen and (min-width: 600px) and (max-width: 900px) { 
 .tres { background: #9CF; } 
 span.bt600-900 { display: inline-block; }
  } 
-
 
 ```
 ### Referencia:
@@ -388,7 +385,7 @@ span.bt600-900 { display: inline-block; }
 ##### Funcionalidade: perspective 
 ##### O que é?
 
-A propriedade perspective nos permite adicionar perspectiva ao elemento HTML, ela se parece mais com uma inclinação e deformação do elemento em questão, mas pode ser muito util para paginas que queiram ter uma estilização de efeito especial ou até mesmo um pequeno game.
+A propriedade perspective nos permite adicionar perspectiva ao elemento HTML, ela se parece mais com uma inclinação e deformação do elemento em questão, mas pode ser muito util para páginas que queiram ter uma estilização de efeito especial ou até mesmo um pequeno game.
 
 
 ##### Onde usar:
@@ -407,7 +404,7 @@ Em qualquer elemento texto HTML.
 ```
 ##### Exemplo de uso
 
-A sintaxe geral para aplicar os métodos da propriedade Filter pode ser utilizada da seguinte forma
+A sintaxe geral para aplicar os métodos da propriedade perspective pode ser utilizada da seguinte forma
 
 ```css
 div {
