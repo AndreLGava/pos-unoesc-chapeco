@@ -123,7 +123,7 @@ Bootstrap demo{http://getbootstrap.com/examples/theme/}
 
 
 ####Páginas
-Imagem representativa de uma página utilizando todos os elementos anteriormente criados:
+Enfim a ultima etapa de desenvolvimento, a página web:
 ![image](https://raw.githubusercontent.com/AndreLGava/pos-unoesc-chapeco/master/arquivos/pagina.jpg)<br/>
 Outros exemplos de páginas construidas a partir de componentes de frameworks<br/>
 por Fundation<br/>
@@ -140,3 +140,7 @@ por Fundation<br/>
 [http://nomadev.com.br/atomic-design-por-que-usar/](http://nomadev.com.br/atomic-design-por-que-usar/) <br/>
 [https://www.youtube.com/watch?v=84LZyZsTiaA](https://www.youtube.com/watch?v=84LZyZsTiaA) <br/>
 [http://www.wirify.com/wp/wp-content/uploads/2011/02/CNN-International-Original-vs-Wirify-wireframe1.jpg](http://www.wirify.com/wp/wp-content/uploads/2011/02/CNN-International-Original-vs-Wirify-wireframe1.jpg) <br/>
+[http://foundation.zurb.com/templates/banner-theme.html](http://foundation.zurb.com/templates/banner-theme.html)<br/>
+[http://getbootstrap.com/examples/theme/](http://getbootstrap.com/examples/theme/)<br/>
+[http://foundation.zurb.com/templates/banner-theme.html](http://foundation.zurb.com/templates/banner-theme.html)<br/>
+[http://foundation.zurb.com/templates/portfolio-theme.html](http://foundation.zurb.com/templates/portfolio-theme.html)<br/>
