@@ -113,15 +113,18 @@ panel foundation:
 
 ####Templates
 
-![image](https://cloud.githubusercontent.com/assets/15130723/10555515/baa9c5ac-7446-11e5-9eac-aadf05215071.png)<br/>
-Outros exemplos com vários componentes de frameworks:<br/>
+Abaixo um wireframe mostrando a utilização de componentes para compor a estrutura e arquitetura de uma página web:
+
+![image](https://raw.githubusercontent.com/AndreLGava/pos-unoesc-chapeco/master/arquivos/wireframe.jpg)<br/>
+Outros exemplos de template com vários componentes de frameworks:<br/>
 Metronic{http://www.keenthemes.com/preview/metronic/theme/templates/admin3/}<br/>
 Bootstrap demo{http://getbootstrap.com/examples/theme/}
 
 
 
 ####Páginas
-![image](https://cloud.githubusercontent.com/assets/15130723/10555516/baafe8f6-7446-11e5-9731-10cb8bd39f16.png)<br/>
+Imagem representativa de uma página utilizando todos os elementos anteriormente criados:
+![image](https://raw.githubusercontent.com/AndreLGava/pos-unoesc-chapeco/master/arquivos/pagina.jpg)<br/>
 Outros exemplos de páginas construidas a partir de componentes de frameworks<br/>
 por Fundation<br/>
 {http://foundation.zurb.com/templates/banner-theme.html}<br/>
@@ -136,3 +139,4 @@ por Fundation<br/>
 [http://nomadev.com.br/passo-a-passo-como-desenvolver-com-atomic-design-mobile-first-e-stylus/](http://nomadev.com.br/passo-a-passo-como-desenvolver-com-atomic-design-mobile-first-e-stylus/) <br/>
 [http://nomadev.com.br/atomic-design-por-que-usar/](http://nomadev.com.br/atomic-design-por-que-usar/) <br/>
 [https://www.youtube.com/watch?v=84LZyZsTiaA](https://www.youtube.com/watch?v=84LZyZsTiaA) <br/>
+[http://www.wirify.com/wp/wp-content/uploads/2011/02/CNN-International-Original-vs-Wirify-wireframe1.jpg](http://www.wirify.com/wp/wp-content/uploads/2011/02/CNN-International-Original-vs-Wirify-wireframe1.jpg) <br/>
