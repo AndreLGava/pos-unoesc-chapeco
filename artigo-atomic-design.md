@@ -83,7 +83,7 @@ css:
 Alert Boostratp:<br/>
 ![image](https://raw.githubusercontent.com/AndreLGava/pos-unoesc-chapeco/master/arquivos/alert.jpg)<br/>
 
-Form Boostratp:<br/>
+Form Bootstrap:<br/>
 ![image](https://raw.githubusercontent.com/AndreLGava/pos-unoesc-chapeco/master/arquivos/form.jpg)<br/>
 
 outros exemplos em códigos:
