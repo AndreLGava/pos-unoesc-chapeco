@@ -80,7 +80,7 @@ div {
 
 ### Funcionalidade: Gradient
 ##### O que é?
-A propriedade gradient nos permite mostrar a trasição entre duas ou mais cores especificas sem o auxilio de qualquer arquivo de imagem, esta é uma funcionalidade muito útil pois reduz o tempo para carregamento da página, qualidade de imagem, o tamanho da mesma e a flexibilidade em diferentes telas. Podemos aplicar diferentes gradientes sejam lineares ou radiais em diferentes ângulos e posições.
+A propriedade gradient nos permite mostrar a transição entre duas ou mais cores especificas sem o auxilio de qualquer arquivo de imagem, esta é uma funcionalidade muito útil pois reduz o tempo para carregamento da página, qualidade de imagem, o tamanho da mesma e a flexibilidade em diferentes telas. Podemos aplicar diferentes gradientes sejam lineares ou radiais em diferentes ângulos e posições.
 
 ##### Onde usar:
 Em qualquer elemento DOM HTML que possua a opção background.
@@ -162,7 +162,7 @@ div {
 
 ##### O que é?
 
-A propriedade transition oferece um metodo simples de animação css de um elemento HTML durante determinado tempo, permitindo criar simples animações  fade, rollover ou outras transições e efeitos sem auxilio de Javascript. Muito similar a Animation CSS, porem menos complicado de implementar, geralmente definindo somente duas coisas (o que animar e em quanto tempo a animação deve acontecer).
+A propriedade transition oferece um método simples de animação css de um elemento HTML durante determinado tempo, permitindo criar simples animações  fade, rollover ou outras transições e efeitos sem auxilio de Javascript. Muito similar a Animation CSS, porem menos complicado de implementar, geralmente definindo somente duas coisas (o que animar e em quanto tempo a animação deve acontecer).
 
 ##### Onde usar:
 
@@ -204,7 +204,7 @@ div {
 
 ##### O que é?
 
-A propriedade @font-face permite que possamos embedar fontes exclusivas na página mesmo que ela não esteja instalada no computados do usuário. Ela torna as páginas mais bonitas e exclusivas, porem se a fonte não existe na maquina ela precisa ser baixada junto com o conteudo HTML ou seja a página pode por alguns segundos ter uma fonte e assim que o arquivo for carregado a página troca a fonte, algo que pode causar um pouco de confusão para o usuário. Para isso inicialmente precisamos definir o nome da fonte e em seguida definir o caminho.
+A propriedade @font-face permite que possamos embedar fontes exclusivas na página mesmo que ela não esteja instalada no computados do usuário. Ela torna as páginas mais bonitas e exclusivas, porem se a fonte não existe na maquina ela precisa ser baixada junto com o conteúdo HTML ou seja a página pode por alguns segundos ter uma fonte e assim que o arquivo for carregado a página troca a fonte, algo que pode causar um pouco de confusão para o usuário. Para isso inicialmente precisamos definir o nome da fonte e em seguida definir o caminho.
 
 ##### Onde usar:
 
@@ -348,7 +348,7 @@ A sintaxe geral para aplicar os métodos da propriedade Filter pode ser utilizad
 ### Funcionalidade: Media Queries
 ##### O que é?
 
-Utilizamos os media queries para definir para qual tipo de media determinado codigo CSS é direcionado, ou seja o utilizamos para definir diferentes tipos de regras para diferentes tipos de dispositivos. Os media queries foram desenvolvidos a partir do atributo media type. Então é um atributo poderoso para que possamos desenvolver interfaces adaptáveis e flexiveis a diferentes tipos de dispositivos e telas. Um atributo poderoso para evitar retrabalho de desenvolvedores e velocidade da aplicação.
+Utilizamos os media queries para definir para qual tipo de media determinado código CSS é direcionado, ou seja o utilizamos para definir diferentes tipos de regras para diferentes tipos de dispositivos. Os media queries foram desenvolvidos a partir do atributo media type. Então é um atributo poderoso para que possamos desenvolver interfaces adaptáveis e flexíveis a diferentes tipos de dispositivos e telas. Um atributo poderoso para evitar retrabalho de desenvolvedores e velocidade da aplicação.
 
 ##### Onde usar:
 
@@ -383,7 +383,7 @@ span.bt600-900 { display: inline-block; }
 ### Funcionalidade: Perspective 
 ##### O que é?
 
-A propriedade perspective nos permite adicionar perspectiva ao elemento HTML, ela se parece mais com uma inclinação e deformação do elemento em questão, mas pode ser muito util para páginas que queiram ter uma estilização de efeito especial ou até mesmo um pequeno game.
+A propriedade perspective nos permite adicionar perspectiva ao elemento HTML, ela se parece mais com uma inclinação e deformação do elemento em questão, mas pode ser muito útil para páginas que queiram ter uma estilização de efeito especial ou até mesmo um pequeno game.
 
 
 ##### Onde usar:
@@ -418,8 +418,8 @@ div {
 
 ### Funcionalidade: Border Radius 
 ##### O que é?
-
-Essa é uma das propriedades CSS3 mais utilizadas, ela é usada para aredondar os cantos de elementos HTML, tornando o layout mais armônico e visualmente mais agradavel aos olhos dos usuários. Antigamente precisavamos utilizar aquivos de imagem para criar os cantos aredondados, se tinha algum outro efeito como sombra já complicava um pouco, utilizar em outros dispositivos era um terror. Esta funcionalidade torna a página mais estavel e mais leve.
+ 
+Essa é uma das propriedades CSS3 mais utilizadas, ela é usada para arredondar os cantos de elementos HTML, tornando o layout mais harmônico e visualmente mais agradável aos olhos dos usuários. Antigamente precisávamos utilizar aquivos de imagem para criar os cantos aredondados, se tinha algum outro efeito como sombra já complicava um pouco, utilizar em outros dispositivos era um terror. Esta funcionalidade torna a página mais estável e mais leve.
 
 
 ##### Onde usar:
